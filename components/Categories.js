@@ -39,21 +39,21 @@ const Categories = () => {
             {categories && (
                 <CategoryCard
                     key={categories[0]._id}
-                    imgUrl={urlFor(categories[0].image).width(200).url()}
+                    imgUrl={categories[0].image}
                     title={categories[0].name}
                 />
             )}
             {categories && (
                 <CategoryCard
                     key={categories[1]._id}
-                    imgUrl={urlFor(categories[1].image).width(200).url()}
+                    imgUrl={categories[1].image}
                     title={categories[1].name}
                 />
             )}
             {categories && (
                 <CategoryCard
                     key={categories[2]._id}
-                    imgUrl={urlFor(categories[2].image).width(200).url()}
+                    imgUrl={categories[2].image}
                     title={categories[2].name}
                 />
             )}

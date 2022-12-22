@@ -18,7 +18,7 @@ const StoreCard = ({ name }) => {
         >
             <Image
                 className='h-10 w-10 bg-gray-300 p-4 rounded-full'
-                source={require('../assets/user.png')}
+                source={require('../assets/store/metfresh.png')}
             />
             <View className='flex-1'>
                 <Text className='font-bold text-xl'>

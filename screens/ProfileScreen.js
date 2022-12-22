@@ -22,7 +22,6 @@ export default function ProfileScreen() {
                 <Text className='font-bold text-xl'>
                     Nancy
                 </Text>
-                <Text className='text-gray-500'>Delivery Pick up</Text>
             </View>
         </TouchableOpacity>
     

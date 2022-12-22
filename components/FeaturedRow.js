@@ -40,16 +40,37 @@ export default function FeaturedRow({ id, title }) {
         className='pt-4'
       >
         {/* ItemCards */}
-        {items?.map((item) => {
+        {items && (
           <ItemCard
-            key={item._id}
-            id={item._id}
-            imgUrl={item.image}
-            title={item.name}
-            description={item.short_description}
-            price={item.price}
+            key={items[0]._id}
+            id={items[0]._id}
+            imgUrl={items[0].image}
+            title={items[0].name}
+            description={items[0].short_description}
+            price={items[0].price}
           />
-        })}
+        )}
+        {items && items[1] && (
+          <ItemCard
+            key={items[1]._id}
+            id={items[1]._id}
+            imgUrl={items[1].image}
+            title={items[1].name}
+            description={items[1].short_description}
+            price={items[1].price}
+          />
+        )}
+
+        {items && items[2] && (
+          <ItemCard
+            key={items[2]._id}
+            id={items[2]._id}
+            imgUrl={items[2].image}
+            title={items[2].name}
+            description={items[2].short_description}
+            price={items[2].price}
+          />
+        )}
 
       </ScrollView>
     </View>

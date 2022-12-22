@@ -31,8 +31,6 @@ const StoreScreen = () => {
         });
     }, []);
 
-    console.log('featured cat', featuredCat);
-
     return (
         <SafeAreaView className='bg-white pt-5'>
             {/* Header */}

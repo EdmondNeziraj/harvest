@@ -25,7 +25,6 @@ export default function OrdersScreen() {
           <Text className='font-bold text-xl'>
             Last Order
           </Text>
-          <Text className='text-gray-500'>Delivery Pick up</Text>
         </View>
         <ArrowRightIcon />
       </TouchableOpacity>

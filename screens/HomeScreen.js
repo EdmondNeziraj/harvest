@@ -38,8 +38,6 @@ export default function HomeScreen() {
                 <StoreCard name={'CTown Supermarket'} />
                 <StoreCard name={'Aldi'} />
                 <StoreCard name={'Key Food'} />
-                <StoreCard name={'Stop & Shop'} />
-                <StoreCard name={'Whole Foods'} />
             </ScrollView>
             <Divider width={1} />
             <Bottom />

@@ -10,7 +10,7 @@ const ItemCard = ({
     description
 }) => {
     return (
-        <TouchableOpacity>
+        <TouchableOpacity className='m-2 border border-gray-200 rounded'>
             <Image
                 className='h-36 w-36 bg-gray-300 p-4 rounded'
                 source={{
@@ -20,7 +20,7 @@ const ItemCard = ({
             <View className='px-3 pb-4'>
                 <Text className='font-bold text-lg pt-2'>{title}</Text>
                 <Text className='text-sm text-gray-500 pt-2'>{description}</Text>
-                <Text>{price}</Text>
+                <Text>${price}</Text>
             </View>
         </TouchableOpacity>
     )
